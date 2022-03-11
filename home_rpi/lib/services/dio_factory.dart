@@ -14,7 +14,7 @@ class DioFactory {
       _dioInstance = Dio(BaseOptions(
         connectTimeout: 5000,
         receiveTimeout: 5000,
-        baseUrl: "http://192.168.1.180:11450/",
+        baseUrl: "http://192.168.1.155:11450/",
         headers: headers
       ));
     }
